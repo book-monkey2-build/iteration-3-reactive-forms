@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -24,7 +24,6 @@ import { DateValueAccessorModule } from 'angular2-date-value-accessor';
   ],
   imports: [
     BrowserModule,
-    FormsModule, // NEW
     ReactiveFormsModule, // NEW
     AppRoutingModule,
     DateValueAccessorModule
