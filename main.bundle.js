@@ -57387,7 +57387,7 @@ var routes = [
     },
     {
         path: 'admin',
-        component: __WEBPACK_IMPORTED_MODULE_5__book_form_book_form_component__["a" /* BookFormComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_5__book_form_book_form_component__["a" /* BookFormComponent */]
     },
     {
         path: 'admin/:isbn',
